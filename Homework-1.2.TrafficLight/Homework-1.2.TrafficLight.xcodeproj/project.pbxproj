@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A4B81D2F2791761400C4D0F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B81D2E2791761400C4D0F8 /* AppDelegate.swift */; };
-		A4B81D312791761400C4D0F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B81D302791761400C4D0F8 /* SceneDelegate.swift */; };
-		A4B81D332791761400C4D0F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B81D322791761400C4D0F8 /* ViewController.swift */; };
-		A4B81D362791761400C4D0F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B81D342791761400C4D0F8 /* Main.storyboard */; };
-		A4B81D382791761800C4D0F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B81D372791761800C4D0F8 /* Assets.xcassets */; };
-		A4B81D3B2791761800C4D0F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B81D392791761800C4D0F8 /* LaunchScreen.storyboard */; };
+		A470B5C72791D3590069CE81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A470B5C62791D3590069CE81 /* AppDelegate.swift */; };
+		A470B5C92791D3590069CE81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A470B5C82791D3590069CE81 /* SceneDelegate.swift */; };
+		A470B5CB2791D3590069CE81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A470B5CA2791D3590069CE81 /* ViewController.swift */; };
+		A470B5CE2791D3590069CE81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A470B5CC2791D3590069CE81 /* Main.storyboard */; };
+		A470B5D02791D35C0069CE81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A470B5CF2791D35C0069CE81 /* Assets.xcassets */; };
+		A470B5D32791D35C0069CE81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A470B5D12791D35C0069CE81 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A4B81D2B2791761400C4D0F8 /* Homework-1.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework-1.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4B81D2E2791761400C4D0F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A4B81D302791761400C4D0F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A4B81D322791761400C4D0F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A4B81D352791761400C4D0F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A4B81D372791761800C4D0F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A4B81D3A2791761800C4D0F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A4B81D3C2791761800C4D0F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A470B5C32791D3590069CE81 /* Homework-1.2.TrafficLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework-1.2.TrafficLight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A470B5C62791D3590069CE81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A470B5C82791D3590069CE81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A470B5CA2791D3590069CE81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A470B5CD2791D3590069CE81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A470B5CF2791D35C0069CE81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A470B5D22791D35C0069CE81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A470B5D42791D35C0069CE81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A4B81D282791761400C4D0F8 /* Frameworks */ = {
+		A470B5C02791D3590069CE81 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,56 +37,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A4B81D222791761400C4D0F8 = {
+		A470B5BA2791D3590069CE81 = {
 			isa = PBXGroup;
 			children = (
-				A4B81D2D2791761400C4D0F8 /* Homework-1.2 */,
-				A4B81D2C2791761400C4D0F8 /* Products */,
+				A470B5C52791D3590069CE81 /* Homework-1.2.TrafficLight */,
+				A470B5C42791D3590069CE81 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A4B81D2C2791761400C4D0F8 /* Products */ = {
+		A470B5C42791D3590069CE81 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A4B81D2B2791761400C4D0F8 /* Homework-1.2.app */,
+				A470B5C32791D3590069CE81 /* Homework-1.2.TrafficLight.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A4B81D2D2791761400C4D0F8 /* Homework-1.2 */ = {
+		A470B5C52791D3590069CE81 /* Homework-1.2.TrafficLight */ = {
 			isa = PBXGroup;
 			children = (
-				A4B81D442791767800C4D0F8 /* Storyboards */,
-				A4B81D432791763200C4D0F8 /* TrafficLightViewController */,
-				A4B81D422791762700C4D0F8 /* App */,
-				A4B81D372791761800C4D0F8 /* Assets.xcassets */,
-				A4B81D3C2791761800C4D0F8 /* Info.plist */,
+				A470B5DC2791D3850069CE81 /* Storyboards */,
+				A470B5DB2791D3770069CE81 /* ViewController */,
+				A470B5DA2791D3690069CE81 /* App */,
+				A470B5CF2791D35C0069CE81 /* Assets.xcassets */,
+				A470B5D42791D35C0069CE81 /* Info.plist */,
 			);
-			path = "Homework-1.2";
+			path = "Homework-1.2.TrafficLight";
 			sourceTree = "<group>";
 		};
-		A4B81D422791762700C4D0F8 /* App */ = {
+		A470B5DA2791D3690069CE81 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				A4B81D2E2791761400C4D0F8 /* AppDelegate.swift */,
-				A4B81D302791761400C4D0F8 /* SceneDelegate.swift */,
+				A470B5C82791D3590069CE81 /* SceneDelegate.swift */,
+				A470B5C62791D3590069CE81 /* AppDelegate.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		A4B81D432791763200C4D0F8 /* TrafficLightViewController */ = {
+		A470B5DB2791D3770069CE81 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				A4B81D322791761400C4D0F8 /* ViewController.swift */,
+				A470B5CA2791D3590069CE81 /* ViewController.swift */,
 			);
-			path = TrafficLightViewController;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
-		A4B81D442791767800C4D0F8 /* Storyboards */ = {
+		A470B5DC2791D3850069CE81 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				A4B81D342791761400C4D0F8 /* Main.storyboard */,
-				A4B81D392791761800C4D0F8 /* LaunchScreen.storyboard */,
+				A470B5CC2791D3590069CE81 /* Main.storyboard */,
+				A470B5D12791D35C0069CE81 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -94,39 +94,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A4B81D2A2791761400C4D0F8 /* Homework-1.2 */ = {
+		A470B5C22791D3590069CE81 /* Homework-1.2.TrafficLight */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4B81D3F2791761800C4D0F8 /* Build configuration list for PBXNativeTarget "Homework-1.2" */;
+			buildConfigurationList = A470B5D72791D35C0069CE81 /* Build configuration list for PBXNativeTarget "Homework-1.2.TrafficLight" */;
 			buildPhases = (
-				A4B81D272791761400C4D0F8 /* Sources */,
-				A4B81D282791761400C4D0F8 /* Frameworks */,
-				A4B81D292791761400C4D0F8 /* Resources */,
+				A470B5BF2791D3590069CE81 /* Sources */,
+				A470B5C02791D3590069CE81 /* Frameworks */,
+				A470B5C12791D3590069CE81 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Homework-1.2";
-			productName = "Homework-1.2";
-			productReference = A4B81D2B2791761400C4D0F8 /* Homework-1.2.app */;
+			name = "Homework-1.2.TrafficLight";
+			productName = "Homework-1.2.TrafficLight";
+			productReference = A470B5C32791D3590069CE81 /* Homework-1.2.TrafficLight.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A4B81D232791761400C4D0F8 /* Project object */ = {
+		A470B5BB2791D3590069CE81 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					A4B81D2A2791761400C4D0F8 = {
+					A470B5C22791D3590069CE81 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = A4B81D262791761400C4D0F8 /* Build configuration list for PBXProject "Homework-1.2" */;
+			buildConfigurationList = A470B5BE2791D3590069CE81 /* Build configuration list for PBXProject "Homework-1.2.TrafficLight" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -134,55 +134,55 @@
 				en,
 				Base,
 			);
-			mainGroup = A4B81D222791761400C4D0F8;
-			productRefGroup = A4B81D2C2791761400C4D0F8 /* Products */;
+			mainGroup = A470B5BA2791D3590069CE81;
+			productRefGroup = A470B5C42791D3590069CE81 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A4B81D2A2791761400C4D0F8 /* Homework-1.2 */,
+				A470B5C22791D3590069CE81 /* Homework-1.2.TrafficLight */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A4B81D292791761400C4D0F8 /* Resources */ = {
+		A470B5C12791D3590069CE81 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4B81D3B2791761800C4D0F8 /* LaunchScreen.storyboard in Resources */,
-				A4B81D382791761800C4D0F8 /* Assets.xcassets in Resources */,
-				A4B81D362791761400C4D0F8 /* Main.storyboard in Resources */,
+				A470B5D32791D35C0069CE81 /* LaunchScreen.storyboard in Resources */,
+				A470B5D02791D35C0069CE81 /* Assets.xcassets in Resources */,
+				A470B5CE2791D3590069CE81 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A4B81D272791761400C4D0F8 /* Sources */ = {
+		A470B5BF2791D3590069CE81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4B81D332791761400C4D0F8 /* ViewController.swift in Sources */,
-				A4B81D2F2791761400C4D0F8 /* AppDelegate.swift in Sources */,
-				A4B81D312791761400C4D0F8 /* SceneDelegate.swift in Sources */,
+				A470B5CB2791D3590069CE81 /* ViewController.swift in Sources */,
+				A470B5C72791D3590069CE81 /* AppDelegate.swift in Sources */,
+				A470B5C92791D3590069CE81 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A4B81D342791761400C4D0F8 /* Main.storyboard */ = {
+		A470B5CC2791D3590069CE81 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A4B81D352791761400C4D0F8 /* Base */,
+				A470B5CD2791D3590069CE81 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A4B81D392791761800C4D0F8 /* LaunchScreen.storyboard */ = {
+		A470B5D12791D35C0069CE81 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A4B81D3A2791761800C4D0F8 /* Base */,
+				A470B5D22791D35C0069CE81 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -190,7 +190,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A4B81D3D2791761800C4D0F8 /* Debug */ = {
+		A470B5D52791D35C0069CE81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -251,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		A4B81D3E2791761800C4D0F8 /* Release */ = {
+		A470B5D62791D35C0069CE81 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -306,7 +306,7 @@
 			};
 			name = Release;
 		};
-		A4B81D402791761800C4D0F8 /* Debug */ = {
+		A470B5D82791D35C0069CE81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -315,7 +315,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5M486LZTXJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Homework-1.2/Info.plist";
+				INFOPLIST_FILE = "Homework-1.2.TrafficLight/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -327,7 +327,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "AleksanderHolod.Homework-1-2";
+				PRODUCT_BUNDLE_IDENTIFIER = "AleksanderHolod.Homework-1-2-TrafficLight";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -335,7 +335,7 @@
 			};
 			name = Debug;
 		};
-		A4B81D412791761800C4D0F8 /* Release */ = {
+		A470B5D92791D35C0069CE81 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -344,7 +344,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5M486LZTXJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Homework-1.2/Info.plist";
+				INFOPLIST_FILE = "Homework-1.2.TrafficLight/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -356,7 +356,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "AleksanderHolod.Homework-1-2";
+				PRODUCT_BUNDLE_IDENTIFIER = "AleksanderHolod.Homework-1-2-TrafficLight";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -367,25 +367,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A4B81D262791761400C4D0F8 /* Build configuration list for PBXProject "Homework-1.2" */ = {
+		A470B5BE2791D3590069CE81 /* Build configuration list for PBXProject "Homework-1.2.TrafficLight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A4B81D3D2791761800C4D0F8 /* Debug */,
-				A4B81D3E2791761800C4D0F8 /* Release */,
+				A470B5D52791D35C0069CE81 /* Debug */,
+				A470B5D62791D35C0069CE81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4B81D3F2791761800C4D0F8 /* Build configuration list for PBXNativeTarget "Homework-1.2" */ = {
+		A470B5D72791D35C0069CE81 /* Build configuration list for PBXNativeTarget "Homework-1.2.TrafficLight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A4B81D402791761800C4D0F8 /* Debug */,
-				A4B81D412791761800C4D0F8 /* Release */,
+				A470B5D82791D35C0069CE81 /* Debug */,
+				A470B5D92791D35C0069CE81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A4B81D232791761400C4D0F8 /* Project object */;
+	rootObject = A470B5BB2791D3590069CE81 /* Project object */;
 }

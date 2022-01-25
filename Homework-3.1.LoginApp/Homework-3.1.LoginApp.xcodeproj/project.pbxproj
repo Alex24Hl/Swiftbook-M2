@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A4131E5F27999B28002EB119 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4131E5E27999B28002EB119 /* AppDelegate.swift */; };
-		A4131E6127999B28002EB119 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4131E6027999B28002EB119 /* SceneDelegate.swift */; };
-		A4131E6327999B28002EB119 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4131E6227999B28002EB119 /* ViewController.swift */; };
-		A4131E6627999B28002EB119 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4131E6427999B28002EB119 /* Main.storyboard */; };
-		A4131E6827999B2B002EB119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4131E6727999B2B002EB119 /* Assets.xcassets */; };
-		A4131E6B27999B2B002EB119 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4131E6927999B2B002EB119 /* LaunchScreen.storyboard */; };
+		A41EA2F527A01579004C8EEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EA2F427A01579004C8EEA /* AppDelegate.swift */; };
+		A41EA2F727A01579004C8EEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EA2F627A01579004C8EEA /* SceneDelegate.swift */; };
+		A41EA2F927A01579004C8EEA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EA2F827A01579004C8EEA /* MainViewController.swift */; };
+		A41EA2FC27A01579004C8EEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41EA2FA27A01579004C8EEA /* Main.storyboard */; };
+		A41EA2FE27A0157D004C8EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41EA2FD27A0157D004C8EEA /* Assets.xcassets */; };
+		A41EA30127A0157D004C8EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41EA2FF27A0157D004C8EEA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A4131E5B27999B28002EB119 /* Homework-3.1.LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework-3.1.LoginApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4131E5E27999B28002EB119 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A4131E6027999B28002EB119 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A4131E6227999B28002EB119 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A4131E6527999B28002EB119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A4131E6727999B2B002EB119 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A4131E6A27999B2B002EB119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A4131E6C27999B2B002EB119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A41EA2F127A01579004C8EEA /* Homework-3.1.LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework-3.1.LoginApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41EA2F427A01579004C8EEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A41EA2F627A01579004C8EEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A41EA2F827A01579004C8EEA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A41EA2FB27A01579004C8EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A41EA2FD27A0157D004C8EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A41EA30027A0157D004C8EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A41EA30227A0157D004C8EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A4131E5827999B28002EB119 /* Frameworks */ = {
+		A41EA2EE27A01579004C8EEA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,56 +37,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A4131E5227999B28002EB119 = {
+		A41EA2E827A01579004C8EEA = {
 			isa = PBXGroup;
 			children = (
-				A4131E5D27999B28002EB119 /* Homework-3.1.LoginApp */,
-				A4131E5C27999B28002EB119 /* Products */,
+				A41EA2F327A01579004C8EEA /* Homework-3.1.LoginApp */,
+				A41EA2F227A01579004C8EEA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A4131E5C27999B28002EB119 /* Products */ = {
+		A41EA2F227A01579004C8EEA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A4131E5B27999B28002EB119 /* Homework-3.1.LoginApp.app */,
+				A41EA2F127A01579004C8EEA /* Homework-3.1.LoginApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A4131E5D27999B28002EB119 /* Homework-3.1.LoginApp */ = {
+		A41EA2F327A01579004C8EEA /* Homework-3.1.LoginApp */ = {
 			isa = PBXGroup;
 			children = (
-				A4131E7427999CD3002EB119 /* ViewControllers */,
-				A4131E7327999CBE002EB119 /* Storyboards */,
-				A4131E7227999B53002EB119 /* App */,
-				A4131E6727999B2B002EB119 /* Assets.xcassets */,
-				A4131E6C27999B2B002EB119 /* Info.plist */,
+				A41EA30A27A017C5004C8EEA /* ViewControllers */,
+				A41EA30927A015B8004C8EEA /* Storyboards */,
+				A41EA30827A015AA004C8EEA /* App */,
+				A41EA2FD27A0157D004C8EEA /* Assets.xcassets */,
+				A41EA30227A0157D004C8EEA /* Info.plist */,
 			);
 			path = "Homework-3.1.LoginApp";
 			sourceTree = "<group>";
 		};
-		A4131E7227999B53002EB119 /* App */ = {
+		A41EA30827A015AA004C8EEA /* App */ = {
 			isa = PBXGroup;
 			children = (
-				A4131E5E27999B28002EB119 /* AppDelegate.swift */,
-				A4131E6027999B28002EB119 /* SceneDelegate.swift */,
+				A41EA2F427A01579004C8EEA /* AppDelegate.swift */,
+				A41EA2F627A01579004C8EEA /* SceneDelegate.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		A4131E7327999CBE002EB119 /* Storyboards */ = {
+		A41EA30927A015B8004C8EEA /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				A4131E6427999B28002EB119 /* Main.storyboard */,
-				A4131E6927999B2B002EB119 /* LaunchScreen.storyboard */,
+				A41EA2FA27A01579004C8EEA /* Main.storyboard */,
+				A41EA2FF27A0157D004C8EEA /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		A4131E7427999CD3002EB119 /* ViewControllers */ = {
+		A41EA30A27A017C5004C8EEA /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				A4131E6227999B28002EB119 /* ViewController.swift */,
+				A41EA2F827A01579004C8EEA /* MainViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -94,13 +94,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A4131E5A27999B28002EB119 /* Homework-3.1.LoginApp */ = {
+		A41EA2F027A01579004C8EEA /* Homework-3.1.LoginApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4131E6F27999B2B002EB119 /* Build configuration list for PBXNativeTarget "Homework-3.1.LoginApp" */;
+			buildConfigurationList = A41EA30527A0157D004C8EEA /* Build configuration list for PBXNativeTarget "Homework-3.1.LoginApp" */;
 			buildPhases = (
-				A4131E5727999B28002EB119 /* Sources */,
-				A4131E5827999B28002EB119 /* Frameworks */,
-				A4131E5927999B28002EB119 /* Resources */,
+				A41EA2ED27A01579004C8EEA /* Sources */,
+				A41EA2EE27A01579004C8EEA /* Frameworks */,
+				A41EA2EF27A01579004C8EEA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -108,25 +108,25 @@
 			);
 			name = "Homework-3.1.LoginApp";
 			productName = "Homework-3.1.LoginApp";
-			productReference = A4131E5B27999B28002EB119 /* Homework-3.1.LoginApp.app */;
+			productReference = A41EA2F127A01579004C8EEA /* Homework-3.1.LoginApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A4131E5327999B28002EB119 /* Project object */ = {
+		A41EA2E927A01579004C8EEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					A4131E5A27999B28002EB119 = {
+					A41EA2F027A01579004C8EEA = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = A4131E5627999B28002EB119 /* Build configuration list for PBXProject "Homework-3.1.LoginApp" */;
+			buildConfigurationList = A41EA2EC27A01579004C8EEA /* Build configuration list for PBXProject "Homework-3.1.LoginApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -134,55 +134,55 @@
 				en,
 				Base,
 			);
-			mainGroup = A4131E5227999B28002EB119;
-			productRefGroup = A4131E5C27999B28002EB119 /* Products */;
+			mainGroup = A41EA2E827A01579004C8EEA;
+			productRefGroup = A41EA2F227A01579004C8EEA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A4131E5A27999B28002EB119 /* Homework-3.1.LoginApp */,
+				A41EA2F027A01579004C8EEA /* Homework-3.1.LoginApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A4131E5927999B28002EB119 /* Resources */ = {
+		A41EA2EF27A01579004C8EEA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4131E6B27999B2B002EB119 /* LaunchScreen.storyboard in Resources */,
-				A4131E6827999B2B002EB119 /* Assets.xcassets in Resources */,
-				A4131E6627999B28002EB119 /* Main.storyboard in Resources */,
+				A41EA30127A0157D004C8EEA /* LaunchScreen.storyboard in Resources */,
+				A41EA2FE27A0157D004C8EEA /* Assets.xcassets in Resources */,
+				A41EA2FC27A01579004C8EEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A4131E5727999B28002EB119 /* Sources */ = {
+		A41EA2ED27A01579004C8EEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4131E6327999B28002EB119 /* ViewController.swift in Sources */,
-				A4131E5F27999B28002EB119 /* AppDelegate.swift in Sources */,
-				A4131E6127999B28002EB119 /* SceneDelegate.swift in Sources */,
+				A41EA2F927A01579004C8EEA /* MainViewController.swift in Sources */,
+				A41EA2F527A01579004C8EEA /* AppDelegate.swift in Sources */,
+				A41EA2F727A01579004C8EEA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A4131E6427999B28002EB119 /* Main.storyboard */ = {
+		A41EA2FA27A01579004C8EEA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A4131E6527999B28002EB119 /* Base */,
+				A41EA2FB27A01579004C8EEA /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A4131E6927999B2B002EB119 /* LaunchScreen.storyboard */ = {
+		A41EA2FF27A0157D004C8EEA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A4131E6A27999B2B002EB119 /* Base */,
+				A41EA30027A0157D004C8EEA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -190,7 +190,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A4131E6D27999B2B002EB119 /* Debug */ = {
+		A41EA30327A0157D004C8EEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -251,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		A4131E6E27999B2B002EB119 /* Release */ = {
+		A41EA30427A0157D004C8EEA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -306,7 +306,7 @@
 			};
 			name = Release;
 		};
-		A4131E7027999B2B002EB119 /* Debug */ = {
+		A41EA30627A0157D004C8EEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -325,16 +325,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "AleksanderHolod.Homework-3-1-LoginApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A4131E7127999B2B002EB119 /* Release */ = {
+		A41EA30727A0157D004C8EEA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -353,37 +353,37 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "AleksanderHolod.Homework-3-1-LoginApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A4131E5627999B28002EB119 /* Build configuration list for PBXProject "Homework-3.1.LoginApp" */ = {
+		A41EA2EC27A01579004C8EEA /* Build configuration list for PBXProject "Homework-3.1.LoginApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A4131E6D27999B2B002EB119 /* Debug */,
-				A4131E6E27999B2B002EB119 /* Release */,
+				A41EA30327A0157D004C8EEA /* Debug */,
+				A41EA30427A0157D004C8EEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4131E6F27999B2B002EB119 /* Build configuration list for PBXNativeTarget "Homework-3.1.LoginApp" */ = {
+		A41EA30527A0157D004C8EEA /* Build configuration list for PBXNativeTarget "Homework-3.1.LoginApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A4131E7027999B2B002EB119 /* Debug */,
-				A4131E7127999B2B002EB119 /* Release */,
+				A41EA30627A0157D004C8EEA /* Debug */,
+				A41EA30727A0157D004C8EEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A4131E5327999B28002EB119 /* Project object */;
+	rootObject = A41EA2E927A01579004C8EEA /* Project object */;
 }

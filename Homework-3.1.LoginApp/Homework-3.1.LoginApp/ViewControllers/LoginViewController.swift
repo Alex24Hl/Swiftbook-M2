@@ -37,8 +37,10 @@ class LoginViewController: UIViewController {
         if username == usernameTF.text && password == passwordTF.text {
         } else {
             wrongAuthorization()
+            passwordTF.text = ""
         }
     }
+    
     
     @IBAction func forgotUsername() {
         let alertUsername = UIAlertController(title: "Username",
@@ -54,5 +56,12 @@ class LoginViewController: UIViewController {
                                               preferredStyle: .alert)
         alertPassword.addAction(UIAlertAction(title: "Ok", style: .default))
         self.present(alertPassword, animated: true)
+    }
+    
+    @IBAction func unwind(_ unwindSegue: UIStoryboardSegue) {
+        //guard unwindSegue.identifier == "sourceLoginVC" else { return }
+        guard let _ = unwindSegue.source as? WelcomeViewController else { return }
+        usernameTF.text = ""
+        passwordTF.text = ""
     }
 }

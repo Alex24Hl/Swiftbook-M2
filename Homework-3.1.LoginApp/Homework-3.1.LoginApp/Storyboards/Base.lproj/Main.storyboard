@@ -27,7 +27,7 @@
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Passowrd" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XiD-NU-Qvb" userLabel="Password">
                                         <rect key="frame" x="0.0" y="62" width="255" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" secureTextEntry="YES"/>
                                     </textField>
                                 </subviews>
                             </stackView>
@@ -87,7 +87,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="81.409295352323838"/>
+            <point key="canvasLocation" x="68" y="81"/>
         </scene>
         <!--Welcome View Controller-->
         <scene sceneID="pwV-RG-w26">
@@ -97,8 +97,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Hello" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qt5-cV-jr5">
-                                <rect key="frame" x="78" y="313" width="220" height="41"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfk-Ry-hsx">
+                                <rect key="frame" x="150" y="429" width="76" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="76" id="FxY-DP-TQv"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Log Out"/>
+                                <connections>
+                                    <segue destination="xOE-zY-rh1" kind="unwind" unwindAction="unwind:" id="iOx-VH-Or9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qt5-cV-jr5">
+                                <rect key="frame" x="59" y="313" width="258" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="85" id="paD-rf-uMw"/>
                                 </constraints>
@@ -110,8 +121,13 @@
                         <viewLayoutGuide key="safeArea" id="Vt1-3u-feu"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <constraints>
-                            <constraint firstItem="qt5-cV-jr5" firstAttribute="centerY" secondItem="VAb-g9-kXo" secondAttribute="centerY" id="Hha-0R-fbx"/>
-                            <constraint firstItem="qt5-cV-jr5" firstAttribute="centerX" secondItem="Vt1-3u-feu" secondAttribute="centerX" id="nFp-Oi-noD"/>
+                            <constraint firstItem="qt5-cV-jr5" firstAttribute="leading" secondItem="Vt1-3u-feu" secondAttribute="leading" constant="59" id="HFA-lj-Ljf"/>
+                            <constraint firstItem="bfk-Ry-hsx" firstAttribute="leading" secondItem="Vt1-3u-feu" secondAttribute="leading" constant="150" id="can-nm-Men"/>
+                            <constraint firstItem="bfk-Ry-hsx" firstAttribute="top" secondItem="qt5-cV-jr5" secondAttribute="bottom" constant="75" id="ewS-tn-3M3"/>
+                            <constraint firstItem="Vt1-3u-feu" firstAttribute="trailing" secondItem="bfk-Ry-hsx" secondAttribute="trailing" constant="149" id="frm-AI-Kcn"/>
+                            <constraint firstItem="qt5-cV-jr5" firstAttribute="centerY" secondItem="VAb-g9-kXo" secondAttribute="centerY" id="gXj-vx-ohH"/>
+                            <constraint firstItem="Vt1-3u-feu" firstAttribute="trailing" secondItem="qt5-cV-jr5" secondAttribute="trailing" constant="58" id="oid-ag-fat"/>
+                            <constraint firstItem="Vt1-3u-feu" firstAttribute="bottom" secondItem="bfk-Ry-hsx" secondAttribute="bottom" constant="207" id="s2o-sv-WFD"/>
                         </constraints>
                     </view>
                     <connections>
@@ -119,6 +135,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cSJ-RH-LNO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="xOE-zY-rh1" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="800.79999999999995" y="80.50974512743629"/>
         </scene>

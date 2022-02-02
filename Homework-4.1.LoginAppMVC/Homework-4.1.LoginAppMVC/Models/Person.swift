@@ -8,4 +8,5 @@
 class Person {
     let username = "Alex"
     let password = "1234"
+    let age = "23"
 }

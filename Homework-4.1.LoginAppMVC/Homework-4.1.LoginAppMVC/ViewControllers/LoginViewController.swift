@@ -23,11 +23,11 @@ class LoginViewController: UIViewController {
         guard let viewControllers = tabBarController.viewControllers else { return }
         for viewController in viewControllers {
             if let welcomeVC = viewController as? WelcomeViewController {
-                welcomeVC.name = person.username
+                welcomeVC.name = Person.getUser().fullname
             }
             else if let aboutMeVC = viewController as? AboutMeViewController {
-                aboutMeVC.name = person.username
-                aboutMeVC.age = person.age
+                aboutMeVC.name = Person.getUser().name
+                aboutMeVC.age = Person.getUser().age
             }
         }
     }
@@ -41,7 +41,7 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func loginAction() {
-        if !(person.username == usernameTF.text && person.password == passwordTF.text) {
+        if !(user.login == usernameTF.text && user.password == passwordTF.text) {
             wrongAuthorization()
             passwordTF.text = ""
         }
@@ -49,7 +49,7 @@ class LoginViewController: UIViewController {
     
     @IBAction func forgotUsername() {
         let alertUsername = UIAlertController(title: "Username",
-                                              message: "Yours username - \(person.username)",
+                                              message: "Yours username - \(user.login)",
                                               preferredStyle: .alert)
         alertUsername.addAction(UIAlertAction(title: "Ok", style: .default))
         self.present(alertUsername, animated: true)
@@ -58,7 +58,7 @@ class LoginViewController: UIViewController {
     
     @IBAction func forgotPassword() {
         let alertPassword = UIAlertController(title: "Password",
-                                              message: "Yours password - \(person.password)",
+                                              message: "Yours password - \(user.password)",
                                               preferredStyle: .alert)
         alertPassword.addAction(UIAlertAction(title: "Ok", style: .default))
         self.present(alertPassword, animated: true)
